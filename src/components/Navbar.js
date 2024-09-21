@@ -119,7 +119,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://github.com/Aeoline"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
@@ -130,33 +130,13 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            href="https://www.linkedin.com/in/ratuaubrey/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Medium profile"
+            aria-label="Checkout my LinkedIn profile"
           >
-            <MediumIcon />
-          </motion.a>
-
-          <motion.a
-            target={"_blank"}
-            className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Dev.to profile"
-          >
-            <DevIcon />
-          </motion.a>
-
-          <motion.a
-            target={"_blank"}
-            className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="My Dev.to profile"
-          ></motion.a>
+            <LinkedInIcon />
+            </motion.a>
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -221,7 +201,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mr-3"
-              href="https://github.com/lilxyzz"
+              href="https://github.com/Aeoline"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Github profile"
@@ -232,14 +212,14 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full"
-              href="https://medium.com/@travis.lord"
+              href="https://www.linkedin.com/in/ratuaubrey/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="Checkout my Medium profile"
+              aria-label="Checkout my LinkedIn profile"
             >
-              <MediumIcon />
+              <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               target={"_blank"}
               className="w-6 mx-3"
               href="https://dev.to/lilxyzz"
@@ -256,7 +236,7 @@ const Navbar = () => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My Dev.to profile"
-            ></motion.a>
+            ></motion.a> */}
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}

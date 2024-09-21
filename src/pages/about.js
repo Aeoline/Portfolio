@@ -38,7 +38,9 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About NexTemp</title>
+        <title>About 
+          Me
+        </title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -51,7 +53,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Let Passion Lead Your Purpose 🔥"
+            text="Fueled by Deadlines and Snacks: My Journey Starts Here! 🔥"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -64,27 +66,18 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+              Hi! I'm Ratu Aubrey Khairani, but feel free to call me Aubrey (because, let's face it, it's shorter 😄). 
+              I recently graduated in Informatics from Diponegoro University, where I thought I'd dive deep into Machine Learning... but then life was like, 'Plot twist!' and now I'm in the world of software engineering 🤷‍♀️.
+              Currently, I'm juggling iOS Development and DevOps. Why both? Well, because who needs free time, right? 😂
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
+              Back in college, I was pretty involved in student organizations and committees at my university. I worked as a Public Relations staff member for the Communication and Information Expert Team in the Informatics Student Association. Sounds fancy, right? 😎
               </p>
               <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+              Oh, and I also completed the Bangkit Academy 2023 Batch 2 program (thanks to Google, GoTo, and Traveloka) where I dived into Android development. So, yeah, coding and coffee became my best friends ☕💻.
+              </p>
+              <p className="my-4 font-medium">
+                P.s I'm a big fan of anime and I'm a cosplayer, so I'm half anime and can be your waifu ✌️.
               </p>
             </div>
             <div
@@ -114,7 +107,7 @@ export default function About() {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
+                  <AnimatedNumberFramerMotion value={914} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 

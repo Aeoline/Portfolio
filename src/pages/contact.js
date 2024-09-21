@@ -48,7 +48,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
+        <title>Contact</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"

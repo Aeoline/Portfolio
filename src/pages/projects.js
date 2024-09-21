@@ -7,7 +7,9 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
+import proj1 from "/public/images/projects/recepku-v1.png";
+import proj2 from "/public/images/projects/sangkanjoyo.png";
+import proj3 from "/public/images/projects/recepku-v2.jpg";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -231,7 +233,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Aubrey's Projects</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -244,44 +246,44 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="Your Ideas + My Portfolio = Pure Magic! ✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                tools="Android Development & Web Development"
+                title="Recepku v2- College Final Project"
+                img={proj3}
+                date="2024"
+                link="/projects/recepku-skripsi"
+                github="https://github.com/Aeoline/Recepku-MD"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                tools="HTML | CSS | JavaScript | Laravel | PHP"
+                title="Sangkanjoyo Village Letter Application Web"
+                img={proj2}
+                date="2024"
+                link="/projects/web-desa"
+                github="https://github.com/Aeoline/Sangkanjoyo"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                tools="Android Development"
+                title="Recepku v1- Bangkit Capstone Project"
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="/projects/recepku-bangkit"
+                github="https://github.com/CH2-PS014/Recepku-MD"
               />
             </div>
+            
           </div>
 
           <div>
@@ -291,7 +293,7 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://github.com/Aeoline/"
               />
             </ul>
 

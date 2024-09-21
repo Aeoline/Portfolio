@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
+        <title>Aubrey's Portfolio</title>
         <meta
           name="description"
           content="Next Portfolio, A open-source portfolio theme built with Nextjs"
@@ -39,20 +39,18 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hey, I’m Riley"
+                text="Hey, I’m Aubrey"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I create engaging web experiences.
+                  I create mobile and website application.
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                I'm a front-end web developer at Stellar Innovations, passionate
-                about creating dynamic and user-friendly web experiences. With a
-                keen eye for design and a robust understanding of front-end and
-                back-end technologies.
+              I am an informatics fresh graduate with an interest in working as a mobile developer and web developer. 
+              While studying at Diponegoro University, I regularly improved my programming skills so that later I could provide great benefits in the professional world.
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
@@ -81,17 +79,17 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="fixed right-8 bottom-8 inline-block md:hidden">
+        {/* <div className="fixed right-8 bottom-8 inline-block md:hidden">
           <iframe
             className="iframe"
             title="Noongar Seasonal Calendar"
             width="280"
             height="120"
             src="https://seasonal-au.netlify.app/"
-            frameborder="0"
-            allowfullscreen
+            frameBorder="0"
+            allowFullScreen
           ></iframe>
-        </div>
+        </div> */}
         <HireMe />
       </article>
     </>
